@@ -72,7 +72,7 @@ function playgame(){
         if(result == 0){
 
             human_score = human_score + 1;
-            console.log('you won the round human score:' ,human_score, 'out of 5');
+            console.log(`you won the round human score: ${human_score} out of 5`);
 
         }
 
@@ -80,7 +80,7 @@ function playgame(){
 
             computer_score = computer_score + 1;
 
-            console.log('you lost the round computer score:' , computer_score, 'out of 5');
+            console.log(`you lost the round computer score: ${computer_score} out of 5`);
 
         }
 
